@@ -75,8 +75,8 @@ void RailDecrypt(char msg[],int key,int len){
 }
 
 void main(){
-	char message[] = "GeeksforGeeks";
-	char cipher[] = "GosefrkesGeke";
+	char message[] = "AmanBohra";
+	char cipher[] = "ABamnorah";
 	int key = 3;
 	int len = sizeof(message) / sizeof(message[0]);
 	RailEncrypt(message,key,len-1);
